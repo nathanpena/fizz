@@ -7,6 +7,12 @@ This project showcases an extension of Ruby's `Fixnum` class to implement the Fi
 
 The code extends Ruby's built-in `Fixnum` class to add custom methods that determine if a number is divisible by 3, 5, or both (FizzBuzz). Additionally, the solution leverages polymorphism to dynamically return specialized classes (`Fizz`, `Buzz`, `FizzBuzz`) for numbers that meet these conditions. This approach cleanly separates logic and makes the FizzBuzz implementation more extensible and modular.
 
+## Applicability to Data Engineering & Data Analysis
+
+- **Data Transformation**: This implementation demonstrates the ability to manipulate and transform data dynamically, a skill critical in data engineering tasks where data flows need to be transformed according to certain business rules or logic.
+- **Object-Oriented Design**: The clean, modular design allows easy extensions and modifications, which is essential in building scalable and maintainable software solutions for data processing and analysis.
+- **Algorithmic Thinking**: The use of conditions and object-oriented principles to solve problems efficiently is directly applicable to both data engineering and data analysis roles, where solving complex data-related problems is essential.
+
 ### Skills Demonstrated:
 
 - **Class Extensions**: Extends the `Fixnum` class to add custom behavior, demonstrating an understanding of Ruby's core classes and how to modify them.
@@ -46,13 +52,6 @@ Fizz
 14
 FizzBuzz
 ```
-
-## Applicability to Data Engineering & Data Analysis
-
-- **Data Transformation**: This implementation demonstrates the ability to manipulate and transform data dynamically, a skill critical in data engineering tasks where data flows need to be transformed according to certain business rules or logic.
-- **Object-Oriented Design**: The clean, modular design allows easy extensions and modifications, which is essential in building scalable and maintainable software solutions for data processing and analysis.
-- **Algorithmic Thinking**: The use of conditions and object-oriented principles to solve problems efficiently is directly applicable to both data engineering and data analysis roles, where solving complex data-related problems is essential.
-
 ## Running the Code
 
 1. Copy the code into a Ruby file (e.g., `fizzbuzz.rb`).
